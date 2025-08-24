@@ -25,7 +25,7 @@ BG_WIDTH, BG_HEIGHT = 150 , 150
 def fetch_data():
     conn_str = (
         'DRIVER={ODBC Driver 17 for SQL Server};'
-        'SERVER=sapsrv;DATABASE=Civan;UID=sa;PWD=B1Admin;'
+        'SERVER=xxxx;DATABASE=Civan;UID=xxxx;PWD=xxxxxx;'
     )
     conn = pyodbc.connect(conn_str)
     query = """
@@ -424,3 +424,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
